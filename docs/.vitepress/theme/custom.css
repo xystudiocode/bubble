@@ -1,0 +1,165 @@
+/* 梦幻色系 */
+:root {
+  --dream-color-blue-1: #4b83fc;
+  --dream-color-blue-2: #4f52f4;
+  --dream-color-blue-3: #3bbaf9;
+  --dream-color-blue-soft: rgba(63, 87, 244, 0.3);
+
+  --dream-color-cyan-1: #1fb4b2;
+  --dream-color-cyan-2: #0b90d2;
+  --dream-color-cyan-3: #51d1cf;
+  --dream-color-cyan-soft: rgba(13, 157, 154, 0.3);
+
+  --dream-color-gray-1: #808080;
+  --dream-color-gray-2: #666666;
+  --dream-color-gray-3: #404040;
+  --dream-color-gray-soft: rgba(48, 48, 48, 0.3);
+
+  --dream-color-white-1: #ffffff;
+  --dream-color-white-2: #fafafa;
+  --dream-color-white-3: #f2f2f2;
+  --dream-color-white-soft: rgba(247, 247, 247, 0.3);
+
+  --dream-color-lightgray-1: #e0e0e0;
+  --dream-color-lightgray-2: #c6c6c6;
+  --dream-color-lightgray-3: #a5a5a5;
+  --dream-color-lightgray-soft: rgba(204, 204, 204, 0.3);
+
+  --dream-color-black-1: #000000;
+  --dream-color-black-2: #202020;
+  --dream-color-black-3: #383838;
+  --dream-color-black-soft: #2d2d2d4d;
+
+  --dream-color-darkgray-1: #202020;
+  --dream-color-darkgray-2: #2d2d2d;
+  --dream-color-darkgray-3: #383838;
+  --dream-color-darkgray-soft: #2020204d;
+
+  --dream-color-green-1: #19c541;
+  --dream-color-green-2: #3eeb9d;
+  --dream-color-green-3: #95f472;
+  --dream-color-green-soft: rgba(59, 196, 111, 0.3);
+
+  --drean-color-dodgerblue-1: #1e5184;
+  --dream-color-dogerblue-2: #1a90e4;
+  --dream-color-dogerblue-3: #7979ef;
+  --drean-color-dodgerblue-soft: rgba(38, 153, 235, 0.3);
+
+  --drean-color-pink-1: #662a7b;
+  --drean-color-pink-2: #cf7bcf;
+  --drean-color-pink-3: #e361e6;
+  --drean-color-pink-soft: rgba(175, 119, 196, 0.3);
+
+  --dream-color-purple-1: #612778;
+  --dream-color-purple-2: #9a52f6;
+  --dream-color-purple-3: #944cbb;
+  --dream-color-purple-soft: rgba(112, 66, 204, 0.3);
+
+  --dream-color-yellow-1: #9b9917;
+  --dream-color-yellow-2: #eccb11;
+  --dream-color-yellow-3: #fcba05;
+  --dream-color-yellow-soft: rgba(236, 209, 12, 0.3);
+
+  --dream-color-orange-1: #a06f2a;
+  --dream-color-orange-2: #ed6904;
+  --dream-color-orange-3: #dfa252;
+  --dream-color-orange-soft: rgba(238, 148, 14, 0.3);
+
+  --dream-color-red-1: #751818;
+  --dream-color-red-2: #ec2c6c;
+  --dream-color-red-3: #e91505;
+  --dream-color-red-soft: rgba(239, 11, 34, 0.3);
+}
+
+/* 浅色主题变量 */
+:root {
+  /* 背景色 */
+  --vp-c-bg: var(--dream-color-white-1);
+  --vp-c-bg-alt: var(--dream-color-white-3);
+  --vp-c-bg-elv: var(--dream-color-white-1);
+  --vp-c-bg-soft: var(--dream-color-white-2);
+  
+  /* 文字色 */
+  --vp-c-text-1: var(--dream-color-black-1);
+  --vp-c-text-2: var(--dream-color-black-2);
+  --vp-c-text-3: var(--dream-color-black-3);
+  
+  /* 品牌色 */
+  --vp-c-brand-1: var(--dream-color-cyan-1);
+  --vp-c-brand-2: var(--dream-color-cyan-2);
+  --vp-c-brand-3: var(--dream-color-cyan-3);
+  --vp-c-brand-soft: var(--dream-color-cyan-soft);
+  
+  /* 边框 */
+  --vp-c-border: var(--dream-color-white-3);
+  --vp-c-divider: var(--dream-color-lightgray-3);
+  --vp-c-gutter: var(--dream-color-white-3);
+
+  --vp-c-tip-1: var(--dream-color-black-1);
+  --vp-c-tip-2: var(--dream-color-green-2);
+  --vp-c-tip-3: var(--dream-color-green-3);
+  --vp-c-tip-soft: var(--dream-color-green-soft);
+
+  --vp-c-note-1: var(--dream-color-black-1);
+  --vp-c-note-2: var(--dream-color-dodgerblue-2);
+  --vp-c-note-3: var(--dream-color-dodgerblue-3);
+  --vp-c-note-soft: var(--drean-color-dodgerblue-soft);
+
+  --vp-c-success-1: var(--dream-color-black-1);
+  --vp-c-success-2: var(--dream-color-pink-2);
+  --vp-c-success-3: var(--dream-color-pink-3);
+  --vp-c-success-soft: var(--drean-color-pink-soft);
+
+  --vp-c-important-1: var(--dream-color-black-1);
+  --vp-c-important-2: var(--dream-color-purple-2);
+  --vp-c-important-3: var(--dream-color-purple-3);
+  --vp-c-important-soft: var(--dream-color-purple-soft);
+
+  --vp-c-warning-1: var(--dream-color-black-1);
+  --vp-c-warning-2: var(--dream-color-yellow-2);
+  --vp-c-warning-3: var(--dream-color-yellow-3);
+  --vp-c-warning-soft: var(--dream-color-yellow-soft);
+
+  --vp-c-danger-1: var(--dream-color-black-1);
+  --vp-c-danger-2: var(--dream-color-orange-2);
+  --vp-c-danger-3: var(--dream-color-orange-3);
+  --vp-c-danger-soft: var(--dream-color-orange-soft);
+
+  --vp-c-caution-1: var(--dream-color-black-1);
+  --vp-c-caution-2: var(--dream-color-red-2);
+  --vp-c-caution-3: var(--dream-color-red-3);
+  --vp-c-caution-soft: var(--dream-color-red-soft);
+}
+
+/* 深色主题变量 */
+.dark {
+  /* 背景色 */
+  --vp-c-bg: var(--dream-color-darkgray-1);
+  --vp-c-bg-alt: var(--dream-color-darkgray-2);
+  --vp-c-bg-elv: var(--dream-color-darkgray-3);
+  --vp-c-bg-soft: var(--dream-color-darkgray-2);
+  
+  /* 文字色 */
+  --vp-c-text-1: var(--dream-color-white-1);
+  --vp-c-text-2: var(--dream-color-gray-1);
+  --vp-c-text-3: var(--dream-color-lightgray-3);
+  
+  /* 品牌色 */
+  --vp-c-brand-1: var(--dream-color-blue-1);
+  --vp-c-brand-2: var(--dream-color-blue-2);
+  --vp-c-brand-3: var(--dream-color-blue-3);
+  --vp-c-brand-soft: var(--dream-color-blue-soft);
+  
+  /* 边框 */
+  --vp-c-border: var(--dream-color-gray-3);
+  --vp-c-divider: var(--dream-color-gray-1);
+  --vp-c-gutter: var(--dream-color-gray-2);
+
+  --vp-c-tip-1: var(--dream-color-white-1);
+  --vp-c-note-1: var(--dream-color-white-1);
+  --vp-c-success-1: var(--dream-color-white-1);
+  --vp-c-important-1: var(--dream-color-white-1);
+  --vp-c-warning-1: var(--dream-color-white-1);
+  --vp-c-danger-1: var(--dream-color-white-1);
+  --vp-c-caution-1: var(--dream-color-white-1);
+}

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bubbleUI"
+version = "0.4.4a2"
+description = ""
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [
+    { name = "xystudio", email = "173288240@qq.com" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["uiml", "PySide6", "Qt", "ui", "xml", "design", "bubble", "bubbleUI"]
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.10.0",
+    "uiml>=0.3.0a1"
+]
+
+[project.urls]
+Homepage = "https://github.com/xystudiocode/bubbleUI"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

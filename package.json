@@ -1,0 +1,19 @@
+{
+  "name": "bubble_docs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "BubbleUI documentation built in vitepress",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "author": "xystudio",
+  "license": "MIT",
+  "devDependencies": {
+    "marked": "^17.0.4",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "mermaid": "^11.14.0"
+  }
+}
